@@ -1,9 +1,11 @@
+import styles from './Pessoa.module.css'
+
 function Pessoa ({nome, idade}) {
     return (
-        <div>
-            <h1>Olá, seu nome é {nome}</h1>
-            <p>Você possui {idade} anos, certo?</p>
-        </div>
+        <> 
+            <h1 className={styles.pessoaContent}>Olá, seu nome é {nome}</h1>
+            <p className={styles.pessoaContent}>Você possui {idade} anos, certo?</p>
+        </>
     )
     
 }
