@@ -9,7 +9,9 @@ function App() {
       <h1>Eae cara</h1>
       <p>Seu nome é {name}, né?</p>
       <HelloWorld />
-      <Pessoa idade='2' nome="João"/>
+      <Pessoa idade={1} nome="João"/>
+      <Pessoa />
+      <Pessoa idade='oi' nome="João"/>
     </div>
   );
 }

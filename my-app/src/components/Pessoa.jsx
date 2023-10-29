@@ -1,4 +1,6 @@
+import PropTypes from 'prop-types'
 import styles from './Pessoa.module.css'
+
 
 function Pessoa ({nome, idade}) {
     return (
@@ -8,6 +10,16 @@ function Pessoa ({nome, idade}) {
         </>
     )
     
+}
+
+Pessoa.propTypes = {
+    nome: PropTypes.string,
+    idade: PropTypes.number.isRequired
+}
+
+Pessoa.defaultProps = {
+    nome: '[Sem nome]',
+    idade: 0
 }
 
 export default Pessoa
