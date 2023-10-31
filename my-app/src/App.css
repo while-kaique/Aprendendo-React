@@ -13,3 +13,12 @@ p{
   color: #808080;
   padding: 10px;
 }
+
+label {
+  margin: 10px;
+}
+
+form {
+  margin: auto;
+  width: 500px;
+}
