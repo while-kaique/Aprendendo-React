@@ -1,4 +1,5 @@
-function BemVindos ( { setNome } ) {
+function BemVindos ( { nome, setNome } ) {
+    
     return (
         <div>
             <p>Digite seu nome:</p>
